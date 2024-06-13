@@ -6,5 +6,5 @@ add_custom_command(
 
 
 #add_library(myobjectlib OBJECT dummy.cpp hello.o)
-add_library(myobjectlib OBJECT IMPORTED )
+add_library(myobjectlib OBJECT IMPORTED)
 set_property(TARGET myobjectlib PROPERTY IMPORTED_OBJECTS hello.o)
